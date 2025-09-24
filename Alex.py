@@ -83,7 +83,7 @@ def wish():
     else:
         speak(f"Good evening sir, its {tt}")
 
-    api_key = "5b05f27203f3f2d2ecd6efe6f9db0bf7"  # Replace with your API key
+    api_key = "Replace with your API key"  # Replace with your API key
     city = "Siliguri"
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
@@ -101,7 +101,7 @@ def wish():
 
 # to get the weather forcast
 def weather(city):
-    api_key = "5b05f27203f3f2d2ecd6efe6f9db0bf7"  # Replace with your API key
+    api_key = "Replace with your API key"  # Replace with your API key
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     
     response = requests.get(url)
